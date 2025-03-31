@@ -1,5 +1,5 @@
 # Agentic RAG System for Sephora Product Reviews
-This repo stores the project codes for an Agentic RAG System (with LoRA-finetuned sentiment analyzer) for the Sephora Product Reviews  
+This repo stores the project code for an Agentic RAG System (with LoRA-finetuned sentiment analyzer) for the Sephora Product Reviews. The code contain an end-to-end pipeline of embedding/upserting raw data into a vector database, LoRA-based finetuning of a BERT-tiny model for sentiment analysis, and a multi-agent RAG workflow (via a graph-based pipeline) to answer user queries about Sephora product reviews. It also integrates the multi-agent graph workflow with a Flask-powered front-end web app, allowing users to input queries and view responses through a web interface.
 
 # Repo Introduction  
 - Agentic_RAG_System_Pipeline.ipynb: This is the main code for this project, which includes the Multi-agent RAG System, Graph Building, Front-End System Building and Testing Pipeline.  
